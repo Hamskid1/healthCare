@@ -45,6 +45,56 @@
 
     </nav>
 
+    <!-- dropdown sec -->
+
+    <div id="drpdown" class="drpDiv">
+        <a style="text-decoration: none;color: var(--color2);" href="index.html"><div class="link">Home</div></a>
+        <div onclick="drpdrp()" class="link">Services <i id="arrow" class="fa-solid fa-caret-down"></i></div>
+        <!-- <i class="fa fa-arrow-down" aria-hidden="true"></i> -->
+
+        <div id="drpdrp" class="drpdrp">
+            <a style="text-decoration: none;color: black;" href="servicesAged.html">Aged care residential facility <br> and hospitals</a>
+            <a style="text-decoration: none;color: black;" href="servicesComm.html">Community care/Respite support</a>
+            <a style="text-decoration: none;color: black;" href="servicesHome.html">Home care support</a>
+            <a style="text-decoration: none;color: black;" href="servicesMental.html"> Mental health support programs</a>
+            <a style="text-decoration: none;color: black;" href="serviceDisable.html"> Disability care support</a>
+        </div>
+        <a style="text-decoration: none;color: black;" href="aboutUs.html"><div class="link">About us</div></a>
+        <a style="text-decoration: none;color: black;" href="joinUs.html"><div class="link">Join us</div></a>
+        <a style="text-decoration: none;color: black;" href="contact.html"><div class="link">Contact us</div></a>
+        <button onclick="dialNumber('0411156749')" class="red-button2">0411 156 749</button>
+    </div>
+
+    <!-- herosection     -->
+ 
+    <section class="herosection">
+        <div>
+            <div>
+                <div>
+                    <video class="vid" loop muted autoplay>
+                        <source src="image/design.mp4" type="video/mp4">
+                    </video>
+                    <video class="mvid" src="image/"loop muted autoplay></video>
+                </div> 
+                
+                <div class="back"></div>
+
+                <div class="container">
+                    <div>
+                    <h1>e4Healthcare</h1>
+                    <p class="goal"> Aged care staffing specialist in Western Australia, known for exceptional hospitality to both clients and staff.</p>
+                        <button onclick="contact()" class="join-us">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- main section -->
+
+    
+
+
     <script src="main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
