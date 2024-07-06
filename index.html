@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>e4Healthcare Services Pty Ltd</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
     <link rel="shortcut icon" href="favicon (3).ico" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
 
     <!-- custom cursor  -->
@@ -23,23 +27,31 @@
         <a class="logo" href="index.html"><img src="image/e4 original logo.png" alt="" width="100"></a>
 
         <div class="navLinks">
-            <a style="text-decoration: none;" href="index.html"><div style="color: #14a0f7;" class="link">Home</div></a>
+            <a style="text-decoration: none;" href="index.html">
+                <div style="color: #14a0f7;" class="link">Home</div>
+            </a>
             <div onclick="serv()" class="link dropdown">Services
-                    <div class="dropdown-content">
-                        <a href="servicesAged.html">Aged care residential facility and hospitals</a>
-                        <a href="servicesComm.html">Community care/Respite support</a>
-                        <a href="servicesHome.html">Home care support</a>
-                        <a href="servicesMental.html"> Mental health support programs</a>
-                        <a href="serviceDisable.html"> Disability care support</a>
-                    </div>
+                <div class="dropdown-content">
+                    <a href="servicesAged.html">Aged care residential facility and hospitals</a>
+                    <a href="servicesComm.html">Community care/Respite support</a>
+                    <a href="servicesHome.html">Home care support</a>
+                    <a href="servicesMental.html"> Mental health support programs</a>
+                    <a href="serviceDisable.html"> Disability care support</a>
+                </div>
             </div>
-            <a style="text-decoration: none;" href="aboutUs.html"><div class="link">About Us</div></a>
-            <a style="text-decoration: none;" href="joinUs.html"><div class="link">Join Us</div></a>
-            <a style="text-decoration: none;" href="contact.html"><div class="link">Contact Us</div></a>
+            <a style="text-decoration: none;" href="aboutUs.html">
+                <div class="link">About Us</div>
+            </a>
+            <a style="text-decoration: none;" href="joinUs.html">
+                <div class="link">Join Us</div>
+            </a>
+            <a style="text-decoration: none;" href="contact.html">
+                <div class="link">Contact Us</div>
+            </a>
         </div>
 
         <button onclick="dialNumber('0411156749')" class="red-button">0411 156 749</button>
-        
+
         <i onclick="drpD()" class="fa-solid fa-bars" id="menu"></i>
         <i onclick="drpU()" class="fa-solid fa-xmark" id="cancel"></i>
 
@@ -48,25 +60,35 @@
     <!-- dropdown sec -->
 
     <div id="drpdown" class="drpDiv">
-        <a style="text-decoration: none;color: var(--color2);" href="index.html"><div class="link">Home</div></a>
+        <a style="text-decoration: none;color: var(--color2);" href="index.html">
+            <div class="link">Home</div>
+        </a>
         <div onclick="drpdrp()" class="link">Services <i id="arrow" class="fa-solid fa-caret-down"></i></div>
         <!-- <i class="fa fa-arrow-down" aria-hidden="true"></i> -->
 
         <div id="drpdrp" class="drpdrp">
-            <a style="text-decoration: none;color: black;" href="servicesAged.html">Aged care residential facility <br> and hospitals</a>
+            <a style="text-decoration: none;color: black;" href="servicesAged.html">Aged care residential facility <br>
+                and hospitals</a>
             <a style="text-decoration: none;color: black;" href="servicesComm.html">Community care/Respite support</a>
             <a style="text-decoration: none;color: black;" href="servicesHome.html">Home care support</a>
-            <a style="text-decoration: none;color: black;" href="servicesMental.html"> Mental health support programs</a>
+            <a style="text-decoration: none;color: black;" href="servicesMental.html"> Mental health support
+                programs</a>
             <a style="text-decoration: none;color: black;" href="serviceDisable.html"> Disability care support</a>
         </div>
-        <a style="text-decoration: none;color: black;" href="aboutUs.html"><div class="link">About us</div></a>
-        <a style="text-decoration: none;color: black;" href="joinUs.html"><div class="link">Join us</div></a>
-        <a style="text-decoration: none;color: black;" href="contact.html"><div class="link">Contact us</div></a>
+        <a style="text-decoration: none;color: black;" href="aboutUs.html">
+            <div class="link">About us</div>
+        </a>
+        <a style="text-decoration: none;color: black;" href="joinUs.html">
+            <div class="link">Join us</div>
+        </a>
+        <a style="text-decoration: none;color: black;" href="contact.html">
+            <div class="link">Contact us</div>
+        </a>
         <button onclick="dialNumber('0411156749')" class="red-button2">0411 156 749</button>
     </div>
 
     <!-- herosection     -->
- 
+
     <section class="herosection">
         <div>
             <div>
@@ -74,15 +96,16 @@
                     <video class="vid" loop muted autoplay>
                         <source src="video/Untitled design.mp4" type="video/mp4">
                     </video>
-                    <video class="mvid" src="video/mobileView.mp4"loop muted autoplay></video>
-                </div> 
-                
+                    <video class="mvid" src="video/mobileView.mp4" loop muted autoplay></video>
+                </div>
+
                 <div class="back"></div>
 
                 <div class="container">
                     <div>
-                    <h1>e4Healthcare</h1>
-                    <p class="goal"> Aged care staffing specialist in Western Australia, known for exceptional hospitality to both clients and staff.</p>
+                        <h1>e4Healthcare</h1>
+                        <p class="goal"> Aged care staffing specialist in Western Australia, known for exceptional
+                            hospitality to both clients and staff.</p>
                         <button onclick="contact()" class="join-us">Contact Us</button>
                     </div>
                 </div>
@@ -147,7 +170,12 @@
         <div class="aboutUsDiv">
             <div class="abtTxt">
                 <h1>About <span style="color: #14a0f7;">Us</span></h1>
-                <p>At e4 Healthcare Services, we pride ourselves on being a premier staffing provider in Western Australia. Our commitment to exceptional hospitality extends to both our clients and team members. Bridging Staffing Gaps for Aged Care Homes, Hospital, Disability Centres, and Community Homes. We understand the challenges faced by healthcare provider in Perth and the surrounding areas, finding qualified workers on a short notice can be a daunting task. That’s where e4 Healthcare Services steps in.</p>
+                <p>At e4 Healthcare Services, we pride ourselves on being a premier staffing provider in Western
+                    Australia. Our commitment to exceptional hospitality extends to both our clients and team members.
+                    Bridging Staffing Gaps for Aged Care Homes, Hospital, Disability Centres, and Community Homes. We
+                    understand the challenges faced by healthcare provider in Perth and the surrounding areas, finding
+                    qualified workers on a short notice can be a daunting task. That’s where e4 Healthcare Services
+                    steps in.</p>
                 <button onclick="abtUs()" class="abtCta">Read more</button>
             </div>
             <div class="abtImg"></div>
@@ -158,7 +186,8 @@
 
     <section data-aos="fade-up" class="services__we__provide">
         <header class="h_1">
-            <h1>Our services extend to include a variety of <br> <span class="h11">healthcare professionals and support staff, such as:</span></h1>
+            <h1>Our services extend to include a variety of <br> <span class="h11">healthcare professionals and support
+                    staff, such as:</span></h1>
         </header>
 
         <div class="service__div">
@@ -207,7 +236,52 @@
         </div>
         <!-- <button class="sCta">See All Our Services &nbsp; <i class="fa-solid fa-arrow-right"></i></button> -->
     </section>
-    
+
+    <!-- Footer section -->
+
+    <footer>
+        <div class="footerContext">
+            <div class="services">
+                <img src="e4 original logo white.png" alt="" width="150">
+                <p>e4 Healthcare Services is dedicated to delivering outstanding services, ensuring comprehensive
+                    engagement with our clients and their families in every facet of their care. Our exceptional team is
+                    the cornerstone of our service, with their well-being and career progression being our priority.</p>
+            </div>
+            <div class="services">
+                <h2>Services</h2>
+                <hr>
+                <div class="fs">
+                    <a href="servicesAged.html">Aged care residential facility and hospitals</a>
+                    <a href="servicesComm.html">Community Care/Respite Support</a>
+                    <a href="servicesHome.html">Home Care Support</a>
+                    <a href="servicesMental.html">Mental Health Support Programs</a>
+                    <a href="serviceDisable.html">Disability Care Support</a>
+                </div>
+            </div>
+            <div class="contact">
+                <h2>Contact</h2>
+                <hr>
+                <div class="fs">
+                    <p>For all staff bookings and general enquiries please call 0411 156 749 alternatively, email your
+                        request or enquiry to admin@e4healthcare.info</p> <br>
+                    <p>Monday to Friday 8:30am- 6pm</p> <br>
+                    <p>Monday to Sunday (24 hours Staff Bookings Only)</p>
+                </div>
+                <div class="links">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="lstDiv">
+            <p>© Copyright 2024 | All Rights Reserved by e4Healthcare</p>
+        </div>
+    </footer>
+
+
 
 
     <script src="main.js"></script>
@@ -216,4 +290,5 @@
         AOS.init();
     </script>
 </body>
+
 </html>
