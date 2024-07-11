@@ -6,7 +6,8 @@
     <title>services - Disability care support</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="servD.css">
-    <link rel="shortcut icon" href="favicon (3).ico" type="image/x-icon">
+    <link rel="shortcut icon" href="image/favicon (3).ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -61,13 +62,13 @@
         <button onclick="dialNumber('0411156749')" class="red-button2">0411 156 749</button>
     </div>
 
-    <section class="__herosection"> 
+    <section data-aos="fade-right" class="__herosection"> 
         <div class="__txt">
             <h1>Disability Care Support</h1>
         </div>
     </section>
 
-    <main class="main">
+    <main data-aos="fade-up" class="main">
         <div class="maindiv">
             <div class="im">
                 <img src="image/disa1.jpg" alt="" width="">
@@ -98,7 +99,7 @@
     </main>
 
 
-    <div class="contactUs">
+    <div data-aos="fade-right" class="contactUs">
         <div class="contactUsDiv">
             <h1>We Care with Love and Respect</h1>
             <p>Our Team Is Here To Help.</p>
@@ -106,7 +107,7 @@
         </div>
     </div>
 
-    <footer>
+    <footer data-aos="fade-left">
         <div class="footerContext">
             <div class="services">
                 <img src="image/e4 original logo white.png" alt="" width="150">
@@ -148,5 +149,9 @@
 
 
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

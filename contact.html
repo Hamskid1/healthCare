@@ -6,7 +6,7 @@
     <title>contact us</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="contact.css" />
-    <link rel="shortcut icon" href="favicon (3).ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="image/favicon (3).ico" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -14,6 +14,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <!-- custom cursor  -->
@@ -109,14 +110,14 @@
       </button>
     </div>
 
-    <section class="__herosection">
+    <section data-aos="fade-down" class="__herosection">
       <img src="image/contactus.jpg" alt="" />
       <div class="__txt">
         <h1>Contact us</h1>
       </div>
     </section>
 
-    <section class="cont_act">
+    <section data-aos="fade-left" class="cont_act">
       <div class="contact_div">
         <h1>Get In Touch With Us For More Information</h1>
         <p>
@@ -152,7 +153,7 @@
       </script>
     </section>
 
-    <div class="map">
+    <div data-aos="fade-right" class="map">
       <h1>Visit us</h1>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d865828.2608997272!2d115.30207665805156!3d-32.03835726977349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32966cdb47733d%3A0x304f0b535df55d0!2sPerth%20WA%2C%20Australia!5e0!3m2!1sen!2sng!4v1718944021713!5m2!1sen!2sng"
@@ -165,7 +166,7 @@
       ></iframe>
     </div>
 
-    <footer>
+    <footer data-aos="fade-up">
       <div class="footerContext">
         <div class="services">
           <img src="image/e4 original logo white.png" alt="" width="150" />
@@ -217,5 +218,9 @@
       </div>
     </footer>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
   </body>
 </html>
